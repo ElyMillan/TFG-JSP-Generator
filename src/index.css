@@ -1,0 +1,43 @@
+#root {
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled):not([disabled]) {
+  cursor: pointer;
+  color: white;
+  background-color: #222831;
+}
+
+/* Color para el título en el modal de éxito */
+.swal-title-success {
+  color: green;
+}
+
+/* Color para el título en el modal de error */
+.swal-title-error {
+  color: red;
+}
+
+.swal2-icon.swal2-success {
+  border-color: transparent;
+  /* Eliminar el borde circular */
+}
+
+.swal2-icon.swal2-success .swal2-success-ring {
+  display: none;
+  /* Ocultar el círculo */
+}
+
+.swal2-icon.swal2-success .swal2-success-circular-line-left,
+.swal2-icon.swal2-success .swal2-success-circular-line-right {
+  display: none;
+  /* Ocultar las líneas circulares */
+}
