@@ -1,0 +1,6 @@
+{
+    "free-search": true,
+    "intermediate-solutions": true,
+    "parallel": 1,
+    "solver": "com.google.ortools.sat@9.8.3296"
+}

@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+numpy
+scipy
+pickle-mixin
+networkx
+sqlalchemy
+databases
+pydantic
+pydantic-settings
+pymysql
+cryptography
+minizinc
+deap

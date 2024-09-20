@@ -1,0 +1,6 @@
+{
+    "free-search": true,
+    "intermediate-solutions": true,
+    "parallel": 1,
+    "solver": "org.gecode.gecode@6.3.0"
+}

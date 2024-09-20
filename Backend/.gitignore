@@ -1,0 +1,45 @@
+# Bytecode de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Directorios de entorno virtual
+venv/
+.venv/
+env/
+.env/
+
+# Directorio de resultados generados
+ConjuntoTFG/
+
+# Archivos de entorno
+.env
+.flaskenv
+
+# Bases de datos
+*.db
+*.sql
+
+# Carpetas específicas de IDEs/Editors
+.idea/
+.vscode/
+# etc.
